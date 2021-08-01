@@ -9,7 +9,7 @@ int main()
 
     printf("La variable age vaut : %d\n", age);
     printf("L'adresse de la variable age est : %p\n", &age);
-    printf("L'adresse enregistrée comme valeur de mon pointeur est : %p\n", mon_pointeur);
+    printf("L'adresse enregistrée comme valeur de mon pointeur est : %d\n",*mon_pointeur);
     printf("L'adresse de mon pointeur est : %p\n", &mon_pointeur);
 
     }
